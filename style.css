@@ -1,0 +1,134 @@
+nav {
+    height: 145px;
+    line-height: 145px;
+    font-size: 5px;
+    font-weight: 150;
+    color: #707070;
+    position: fixed;
+    font-family: 'Helvetica Neue', Light; 
+    background-color: white;
+}
+
+
+#navList a:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+}
+
+
+body{
+    background-color: white;
+    font-family: 'Helvetica Neue', Light;
+    font-weight: 150;
+}
+
+
+
+#landing{
+    margin-top: 81px;
+    height: 61vh;
+    background-image: url("http://s.wsj.net/public/resources/images/OB-JO275_0812ra_J_20100812145542.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#donate {
+    margin-top: 81px;
+    height: 100vh;
+    background-image: url("donate.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    font-family: 'Helvetica Neue', Light;
+    font-weight: 150;
+}
+
+#team {
+    padding-bottom: 60px;
+}
+
+
+#profilePic {
+    margin-top: 20px;
+}
+
+#shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+#masjidmap {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-image: url("masjid_shoes.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#leftCard {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+#leftImage {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+#rightCard {
+    position: relative;
+    margin-top: 250px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+
+#rightImage {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.align-left {
+      float:left;
+      margin-right:20px;
+}
+
+.align-right {
+    float:right;
+    margin-left:20px;
+}
+
+.slide-in {
+    opacity:0;
+    transition:all .5s;
+}
+
+.align-left.slide-in {
+    transform:translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+    transform:translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+    opacity:1;
+    transform:translateX(0%) scale(1);
+}
+
+
+
