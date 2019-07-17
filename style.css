@@ -1,5 +1,4 @@
 nav {
-    height: 145px;
     line-height: 145px;
     font-size: 5px;
     font-weight: 150;
@@ -9,12 +8,10 @@ nav {
     background-color: white;
 }
 
-
 #navList a:hover {
     transform: scale(1.2);
     background-color: transparent;
 }
-
 
 body{
     background-color: white;
@@ -22,10 +19,7 @@ body{
     font-weight: 150;
 }
 
-
-
 #landing{
-    margin-top: 81px;
     height: 61vh;
     background-image: url("http://s.wsj.net/public/resources/images/OB-JO275_0812ra_J_20100812145542.jpg");
     background-position: center;
@@ -36,7 +30,6 @@ body{
 }
 
 #donate {
-    margin-top: 81px;
     height: 100vh;
     background-image: url("donate.jpg");
     background-position: center;

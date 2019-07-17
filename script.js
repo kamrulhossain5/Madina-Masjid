@@ -1,3 +1,4 @@
+M.AutoInit();
 function debounce(func, wait = 20, immediate = true) {
       var timeout;
       return function() {
@@ -35,4 +36,9 @@ window.addEventListener('scroll', debounce(checkSlide));
 
   $(document).ready(function(){
     $('.carousel').carousel();
+  });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
   });

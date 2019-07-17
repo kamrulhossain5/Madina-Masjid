@@ -1,9 +1,11 @@
 <html>
     <head>
         <title>Madina Masjid</title>
+        <link rel="icon" href="favicon.jpg">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
         <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <!-- Main stylesheet -->
         <link rel="stylesheet" href="style.css">
@@ -12,26 +14,33 @@
 
         <!-- Navbar -->
 
-        <div class="navbar-fixed" id ="navbar">
-                
-            <nav class="white">
-                <div class="container">
-                    <div="nav-wrapper">
-                        <a href="index.html"  id="logo" class="navbar-brand"><img src="logo.png" style="width:150px"></a>
-                        <ul class="right hide-on-med-and-down" id="navList">
-                            <li><a href="index.html" style="color: black;">HOME</a></li>
+        <nav class="navbar-fixed" style="min-height: 145px">
+            <div class="container">
+            <div class="nav-wrapper">
+              <a href="index.html" class="brand-logo"><img class="responsive-img" src="logo.png" style="width:150px"></a>
+              <a href="#" style="color: black;" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down" id="navList">
+                <li><a href="index.html" style="color: black;">HOME</a></li>
                             <li><a href="about-us.html" style="color: black;">ABOUT US</a></li>
                             <li><a href="services.html" style="color: black;">SERVICES</a></li>
                             <li><a href="news-events.html" style="color: black;">NEWS &amp; EVENTS</a></li>
                             <li><a href="education.html" style="color: black;">EDUCATION</a></li>
                             <li><a href="donate.html" style="color: black;">DONATE</a></li>
                             <li><a href="contact.html" style="color: black;">CONTACT US</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            
-        </div>
+              </ul>
+            </div>
+            </div>
+          </nav>
+
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html" style="color: black;">HOME</a></li>
+                            <li><a href="about-us.html" style="color: black;">ABOUT US</a></li>
+                            <li><a href="services.html" style="color: black;">SERVICES</a></li>
+                            <li><a href="news-events.html" style="color: black;">NEWS &amp; EVENTS</a></li>
+                            <li><a href="education.html" style="color: black;">EDUCATION</a></li>
+                            <li><a href="donate.html" style="color: black;">DONATE</a></li>
+                            <li><a href="contact.html" style="color: black;">CONTACT US</a></li>
+          </ul>
 
         <!-- Landing Screen -->
 
@@ -40,13 +49,13 @@
                 <h1 style="color: white;"  class="left-align">Services</h1>
                 <h5 style="color: white; font-family: 'Helvetica Neue', Light; font-weight: 150;"  class="left-align">Islamic Council of America, Inc.</h5>
             </div>    
-        </div 5
+        </div>
 
         <!-- Intro and service -->
 
         <div id="intro" class="section white">
             <div class="container">
-                <img src="masjidwalk.jpg" class="align-right slide-in" id="leftImage" style="width:500px; margin-top: 85px;">
+                <img src="masjidwalk.jpg" class="align-right slide-in responsive-img" id="leftImage" style="width:500px; margin-top: 85px;">
                 <div class="row">
                     <div class="col s12 m4" id="leftCard">
                       <div class="card-panel white" id="shadow">
@@ -88,7 +97,7 @@
                     
                 </div>
             
-                <img src="prayer.jpg" class="align-left slide-in" id="rightImage" style="width:500px">
+                <img src="prayer.jpg" class="align-left slide-in responsive-img" id="rightImage" style="width:500px">
                 
                 <div class="row">
                     <div class="col s12 m5" id="rightCard">
@@ -99,7 +108,7 @@
                       </div>
                     </div>
                 </div>
-                <img src="muslimseminar.jpg" class="align-right slide-in" id="leftImage" style="width:500px;">
+                <img src="muslimseminar.jpg" class="align-right slide-in responsive-img" id="leftImage" style="width:500px;">
                 <div class="row">
                     <div class="col s12 m5" id="leftCard" style="margin-top: 250px;">
                       <div class="card-panel white" id="shadow">
@@ -110,7 +119,7 @@
                     </div>
                 </div>
             
-                <img src="counseling.jpeg" class="align-left slide-in" id="rightImage" style="width:500px">
+                <img src="counseling.jpeg" class="align-left slide-in responsive-img" id="rightImage" style="width:500px">
                 
                 <div class="row">
                     <div class="col s12 m5" id="rightCard">
@@ -121,7 +130,7 @@
                       </div>
                     </div>
                 </div>
-                <img src="http://atlas-content-cdn.pixelsquid.com/stock-images/gold-wedding-rings-ring-PxAMJwB-600.jpg" class="align-right slide-in" id="leftImage" style="width:500px">
+                <img src="http://atlas-content-cdn.pixelsquid.com/stock-images/gold-wedding-rings-ring-PxAMJwB-600.jpg" class="align-right slide-in responsive-img" id="leftImage" style="width:500px">
                 <div class="row">
                     <div class="col s12 m5">
                       <div class="card-panel white" id="leftCard" id="shadow">
@@ -134,18 +143,18 @@
                 </div>
                 
             
-                <img src="cemetary.jpg" class="align-left slide-in" id="rightImage" style="width:600px">
+                <img src="cemetary.jpg" class="align-left slide-in responsive-img" id="rightImage" style="width:600px">
                 
                 <div class="row">
                     <div class="col s12 m5" id="rightCard">
                       <div class="card-panel white" id="shadow">
                         <h5 class="center">Funeral Services</h5>
-                        <span class="black-text">Madina Masjid provides funeral arrangement and cleansing. We have our own burial property in Forest Park Cemetary. Our old burial property was in Silver Mount Cemetary and a lot of our founders are located there. Please contact us for more information or to speak to the management.<br><br>Contact the office to make an appointment  <br>Phone: (212) 533-5060<br>Email: contact@madinamasjidnyc.org
+                        <span class="black-text">Madina Masjid provides funeral arrangement and cleansing. We have two grave yard sites in Forest Park Cemetary, which is newly purchases. Our old burial property was in Silver Mount Cemetary and a lot of our founders are located there. Please contact us for more information or to speak to the management.<br><br>Contact the office to make an appointment  <br>Phone: (212) 533-5060<br>Email: contact@madinamasjidnyc.org
                         </span>
                       </div>
                     </div>
                 </div>
-                <img src="interfaith.jpg" class="align-right slide-in" id="leftImage" style="width:500px">
+                <img src="interfaith.jpg" class="align-right slide-in responsive-img" id="leftImage" style="width:500px">
                 <div class="row">
                     <div class="col s12 m5">
                       <div class="card-panel white" id="leftCard" id="shadow">
@@ -157,7 +166,7 @@
                 </div>
                 
             
-                <img src="health.jpg" class="align-left slide-in" id="rightImage" style="width:500px">
+                <img src="health.jpg" class="align-left slide-in responsive-img" id="rightImage" style="width:500px">
                 
                 <div class="row">
                     <div class="col s12 m5" id="rightCard">
@@ -168,7 +177,7 @@
                       </div>
                     </div>
                 </div>
-                <img src="tablique.jpg" class="align-right slide-in" id="leftImage" style="width:500px; margin-top: 40px;">
+                <img src="tablique.jpg" class="align-right slide-in responsive-img" id="leftImage" style="width:500px; margin-top: 40px;">
                 <div class="row">
                     <div class="col s12 m5">
                       <div class="card-panel white" id="leftCard" id="shadow">
@@ -215,7 +224,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
