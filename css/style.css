@@ -31,7 +31,7 @@ body{
 
 #donate {
     height: 100vh;
-    background-image: url("donate.jpg");
+    background-image: url("../img/donate.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ body{
 }
 
 footer {
-    background-image: url("masjid_shoes.jpg");
+    background-image: url("../img/masjid_shoes.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
